@@ -1,0 +1,31 @@
+<%= form_for [@admin,@profile] do |form| %>
+ 
+
+  <div class="field">
+    <%= form.label :email %>
+    <%= form.text_field :email %>
+  </div>
+
+  <div class="field">
+    <%= form.label :first_name %>
+    <%= form.text_field :first_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :last_name %>
+    <%= form.text_field :last_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :phone_no %>
+    <%= form.text_field :phone_no %>
+  </div>
+
+  <div class="field">
+    <%= form.hidden_field :admin_id,value: params[:admin_id] %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
