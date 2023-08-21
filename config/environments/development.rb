@@ -3,18 +3,18 @@ require "active_support/core_ext/integer/time"
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
-  ENV['GOOGLE_OAUTH_CLIENT_ID'] = '978243226021-u5asf2a2ueffk0khbtband8512gu6nhj.apps.googleusercontent.com'
-  ENV['GOOGLE_OAUTH_CLIENT_SECRET'] = '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'
+  ENV['GOOGLE_OAUTH_CLIENT_ID'] = ''
+  ENV['GOOGLE_OAUTH_CLIENT_SECRET'] = ''
 
-  ENV['LINKEDIN_OAUTH_CLIENT_ID'] = '869rt2nb6hknnx'
-  ENV['LINKEDIN_OAUTH_CLIENT_SECRET'] = 'hfjVEeCFnZ96gyfF'
+  ENV['LINKEDIN_OAUTH_CLIENT_ID'] = ''
+  ENV['LINKEDIN_OAUTH_CLIENT_SECRET'] = ''
 
-  ENV['GITHUB_OAUTH_CLIENT_ID'] = 'b99c6e5dffad904b7cac'
-  ENV['GITHUB_OAUTH_CLIENT_SECRET'] = 'db16554a1de297b616ec854707e309c5b8565f55'
+  ENV['GITHUB_OAUTH_CLIENT_ID'] = ''
+  ENV['GITHUB_OAUTH_CLIENT_SECRET'] = ''
 
 
-  ENV['TWITTER_API_PUBLIC'] = 'IzPxeJstHDxeYhDAXESCRCj1z'
-  ENV['TWITTER_API_SECRET'] = 'CnvkX1EDHDS4HNB4ZuJNjSjySGfjlAtmlYJd6XprIPhyXfBZka'
+  ENV['TWITTER_API_PUBLIC'] = ''
+  ENV['TWITTER_API_SECRET'] = ''
   # In the development environment your application's code is reloaded any time
   # it changes. This slows down response time but is perfect for development
   # since you don't have to restart the web server when you make code changes.
